@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1{
+                color: white;
+                text-align: center;
+            }
+            body{
+                background-color: pink;
+                text-align: center;
+            }
+            p {
+                text-align: right;
+                font-style: italic;
+                font-family: monospace;
+            }
+            a{
+                padding: 5%;
+            }
+            img {
+                background-size: contain;
+            }
+            .rows {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+            .cols{
+                display: flex;
+                flex-direction: column;
+            }
+        </style>
+        <title>Basics </title>
+    </head>
+    <body>
+        <h1>&clubs;Online malls&clubs;</h1>
+        <div class="rows">
+            <div class="cols">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAV1BMVEUAAAD////8/Pzj4+OysrLMzMzGxsaOjo69vb2YmJjx8fFgYGDc3Ny3t7empqYlJSVra2t4eHg3NzcbGxuenp6CgoJFRUWsrKwQEBDS0tJUVFRMTEwxMTGDvCpxAAADX0lEQVR4nO3c23aqQBBFURsRFVHjLRrj/3/niZoLIAJCMXrDWfM1eagdhGqqO45GAAAAAAAAAAAAAAAAAAAAAABgWE7nk+8SunSIYufOvqvozG7pbt58F9KV73zOLXxX0o2N+/Xuu5ZORH8Bne9aOjFOBQx8F9OFOBXQRb6r6UD6Cjo39V2OvVkm4ABvw7dswInveuwF2YTD64bHbMCx73rsZQMOcFG6ygYcYKvI3oUD7PaL7CX89F2PvexzZuO7nA5kljMH39V0IR1wkG++u7988dZ3MZ24/Abc+y6lI9vvfKHvQjrz9SkNxuEgb8BhWkxXYXicPn95OM9nSezicRRO+zeN+gxTnS/Zrx9/4zDJrVB71f6nsctJst19EeV/4eroqdyXHYKi8t3y55O42z/8AXrVQ9bJs/JdfNxsz/vnP3e9WAe8ldVfh/rtuG8b0Lm57wylwvYBtQeoq+ry69Bd8xxsAjqn+rh5twoYqw7gnna5F8nO34xuQt1n6a669lp0hzeFK83X6bYKo0so/PJ/rK6+BuV9muL3iVcVvEeqWFRXX8PKd4wSy+ryq0nv05h0e9lO+OVkEVD6zMKmuvxq0mcWTFZsus1+9HBEphnhVpE/5dSM9JPUpN8rr2cejpA0IvtaeGORcOY7RCkSkvDqw3eIUhYJY98hSlkklF6W2iSU3ge2WNNobx6aDNoS3ynKmOw5SS+95yYJlffxbQZR0k9Tm4TC82CrfSfhhmG0ayG8rrF51ChPo7bVxdejeyva7FsoRzSZtt2oflBNZsJ3qie/7BKq7kEZ9Yu7QHH+3frIXpbvOEVMA0oOT2128r9JHm1bGwYU3cOYVFdel+bDdHS2S+g7yjMm86gr2fG30Zu+8sCm9Bh+fZKt4s7oTtS9hEaPU+WRm8kJRdFe+MNgmqF7hPaudceQnu1fXaozlNP/frqW/3Sh/m9PVx9tAqoOabJajN2EJ8Jpn80T9uWbQBrfiorTmWINN0yXvut+QaPVm/aBmrziiMF4EkWTcfGjqF8Biw7vJ/PLzw8v88elT58+onfZMX9wzL0SbXMbHX3o9Hmnv8uYFK6mUxdSdPJUbR4lycdy+nSpuT6Es8nsOLyv3QMAAAAAAAAAAAAAAAAAAAAAAAAAAADwn/sH+H4hfRGBb/MAAAAASUVORK5CYII=" alt="apple" width="350" height="400">
+                <a href="https://www.apple.com/fr/">
+                    <span>apple</span>
+                </a>
+            </div>
+            <div class="cols">
+                <img src="data:image/png;base64,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" alt="apple" width="350" height="400">
+                <a href="https://www.microsoft.com/fr-fr/">
+                    <span>ms</span>
+                </a>
+                
+            </div>
+        </div>
+        <hr>
+        <p>&copy;sapark 2020</p>
+
+       
+    </body>
+</html>
