@@ -10,4 +10,10 @@
 # get
 # curl -b cook.txt 'http://localhost:8080/day03/ex03/cookie_crisp.php?action=get&name=plat'
 
-curl 'http://localhost:8080/day03/ex04/raw_text.php'
+# curl 'http://localhost:8080/day03/ex04/raw_text.php'
+
+# curl --head 'http://localhost:8080/day03/ex05/read_img.php'
+
+# curl --user zaz:jaimelespetitsponeys http://localhost:8080/day03/ex06/members_only.php
+
+curl -v --user root:root http://localhost:8080/day03/ex06/members_only.php
