@@ -18,8 +18,10 @@
 
 # curl -v --user root:root http://localhost:8080/day03/ex06/members_only.php
 
- curl -v -c cook.txt 'http://localhost:8080/day04/ex00/index.php'
+#  curl -v -c cook.txt 'http://localhost:8080/day04/ex00/index.php'
 
-#  curl -v -b cook.txt 'http://localhost:8080/day04/ex00/index.php'
+#  curl -v -b cook.txt 'http://localhost:8080/day04/ex00/index.php?login=sb&passwd=beeone&submit=OK'
 
 #  curl -v 'http://localhost:8080/day04/ex00/index.php'
+
+curl -d login=toto1 -d passwd=titi1 -d submit=OK 'http://localhost:8080/day04/ex01/create.php'
