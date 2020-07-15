@@ -29,3 +29,9 @@
 # curl -d login=toto1 -d passwd=titi1 -d submit=OK 'http://localhost:8080/day04/ex01/create.php'
 
 # curl -d login=toto2 -d passwd= -d submit=OK 'http://localhost:8080/day04/ex01/create.php'
+
+
+#ex02
+# curl -d login=x -d passwd=21 -d submit=OK 'http://localhost:8080/day04/ex01/create.php'
+
+curl -d login=x -d oldpw=21 -d newpw=42 -d submit=OK 'http://localhost:8080/day04/ex02/modif.php'

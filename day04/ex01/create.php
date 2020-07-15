@@ -42,22 +42,11 @@
         echo "\nOK\n";
     }
 
-    // if (!isset($_POST['login']) || !isset($_POST['passwd']))
     else
     {
         echo "ERROR\n"; 
     }
-    // else
-    // {
-    //     echo "OK";
-    //     $id = $_POST['login'];
-    //     $passwd = $_POST['passwd'];
-
-    //     $_SESSION['login'] = $id;
-    //     $_SESSION['passwd'] = $passwd;
-       
-        
-    // }
+ 
 ?>
 
 
